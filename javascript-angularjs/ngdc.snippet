@@ -1,0 +1,11 @@
+directive('${1:directiveName}', function factory(${2:injectables}) {
+  var directiveDefinitionObject = {
+    ${3:directiveAttrs},
+    compile: function compile(tElement, tAttrs, transclude) {
+      return function (scope, element, attrs) {
+      
+      }
+    }
+  };
+  return directiveDefinitionObject;
+});
